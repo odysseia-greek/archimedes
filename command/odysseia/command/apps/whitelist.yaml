@@ -1,2 +1,4 @@
 appsToInstall:
-  - sokrates
+  - vault
+  - solon
+  - perikles

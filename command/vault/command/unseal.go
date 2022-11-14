@@ -60,7 +60,7 @@ func Unseal() *cobra.Command {
 		},
 	}
 
-	cmd.PersistentFlags().StringVarP(&key, "key", "k", "", "unseal key, if not set cluster-keys will be used")
+	cmd.PersistentFlags().StringVarP(&key, "key", "u", "", "unseal key, if not set cluster-keys will be used")
 	cmd.PersistentFlags().StringVarP(&namespace, "namespace", "n", "", "kubernetes namespace defaults to odysseia")
 	cmd.PersistentFlags().StringVarP(&kubePath, "kubepath", "k", "", "kubeconfig filepath defaults to ~/.kube/config")
 

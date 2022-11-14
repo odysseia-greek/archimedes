@@ -96,7 +96,7 @@ func CreateImageSet() *cobra.Command {
 				dirParts := strings.Split(callingDir, string(os.PathSeparator))
 				var odysseiaPath []string
 				for i, part := range dirParts {
-					if part == "odysseia" {
+					if part == "odysseia-greek" {
 						odysseiaPath = dirParts[0 : i+1]
 						break
 					}
